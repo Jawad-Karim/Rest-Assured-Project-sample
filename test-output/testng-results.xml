@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2479" started-at="2023-06-03T00:14:23Z" finished-at="2023-06-03T00:14:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2479" started-at="2023-06-03T00:14:23Z" finished-at="2023-06-03T00:14:25Z">
+      <class name="restAssred_reqres_Tests.Get_userList_reqres">
+        <test-method status="PASS" signature="get_test()[pri:0, instance:restAssred_reqres_Tests.Get_userList_reqres@3498ed]" name="get_test" is-config="true" duration-ms="1882" started-at="2023-06-02T20:14:23Z" finished-at="2023-06-02T20:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_test -->
+        <test-method status="PASS" signature="getBody_string()[pri:0, instance:restAssred_reqres_Tests.Get_userList_reqres@3498ed]" name="getBody_string" duration-ms="591" started-at="2023-06-02T20:14:25Z" finished-at="2023-06-02T20:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBody_string -->
+        <test-method status="PASS" signature="getContentType()[pri:0, instance:restAssred_reqres_Tests.Get_userList_reqres@3498ed]" name="getContentType" duration-ms="0" started-at="2023-06-02T20:14:25Z" finished-at="2023-06-02T20:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContentType -->
+        <test-method status="PASS" signature="getContent_length()[pri:0, instance:restAssred_reqres_Tests.Get_userList_reqres@3498ed]" name="getContent_length" duration-ms="0" started-at="2023-06-02T20:14:25Z" finished-at="2023-06-02T20:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContent_length -->
+        <test-method status="PASS" signature="getEncoding_type()[pri:0, instance:restAssred_reqres_Tests.Get_userList_reqres@3498ed]" name="getEncoding_type" duration-ms="0" started-at="2023-06-02T20:14:25Z" finished-at="2023-06-02T20:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEncoding_type -->
+        <test-method status="PASS" signature="getStatus_code()[pri:0, instance:restAssred_reqres_Tests.Get_userList_reqres@3498ed]" name="getStatus_code" duration-ms="0" started-at="2023-06-02T20:14:25Z" finished-at="2023-06-02T20:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatus_code -->
+        <test-method status="PASS" signature="getServer_type()[pri:0, instance:restAssred_reqres_Tests.Get_userList_reqres@3498ed]" name="getServer_type" duration-ms="0" started-at="2023-06-02T20:14:25Z" finished-at="2023-06-02T20:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getServer_type -->
+        <test-method status="PASS" signature="getStatus()[pri:0, instance:restAssred_reqres_Tests.Get_userList_reqres@3498ed]" name="getStatus" duration-ms="0" started-at="2023-06-02T20:14:25Z" finished-at="2023-06-02T20:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatus -->
+        <test-method status="PASS" signature="getResponstime()[pri:0, instance:restAssred_reqres_Tests.Get_userList_reqres@3498ed]" name="getResponstime" duration-ms="0" started-at="2023-06-02T20:14:25Z" finished-at="2023-06-02T20:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponstime -->
+      </class> <!-- restAssred_reqres_Tests.Get_userList_reqres -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
