@@ -1,5 +1,12 @@
 package swaggerNewPet;
 
+/* 
+"category": {
+  "id": 0,
+  "name": "string"
+}
+*/
+
 public class CategoryPOJO {
 	
 	private int id;

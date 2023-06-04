@@ -1,10 +1,16 @@
 package postAPIswagger;
 
+/* 
+  "category": {
+    "id": 0,
+    "name": "string"
+  }
+ */
 public class CategoryPOJO {
-	
+
 	private int id;
 	private String name;
-	
+
 	public int getId() {
 		return id;
 	}
@@ -17,6 +23,4 @@ public class CategoryPOJO {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-
 }

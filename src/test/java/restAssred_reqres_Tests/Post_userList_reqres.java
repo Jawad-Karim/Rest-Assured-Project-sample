@@ -1,16 +1,18 @@
 package restAssred_reqres_Tests;
-
 import java.util.HashMap;
 import java.util.Map;
-
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import io.restassured.RestAssured;
 import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
-
-public class Post_userLinst_reqres extends RestBaseClass{
+/*
+{
+   "name": "morpheus",
+   "job": "leader"
+}
+*/
+public class Post_userList_reqres extends RestBaseClass{
 	
 	@BeforeClass
 	public void postNewUser() throws Exception {
@@ -25,10 +27,8 @@ public class Post_userLinst_reqres extends RestBaseClass{
 		map.put("job", "tester");
 		
 		request.body(map);
-		response = request.post("/user");
-		
-		Thread.sleep(2000);
-		
+		response = request.post("/user");		
+		Thread.sleep(2000);		
 	}
 	
 	@Test(priority=1)
@@ -51,12 +51,14 @@ public class Post_userLinst_reqres extends RestBaseClass{
 		String contentType = response.header("Content-Type");
 		System.out.println("content type : "+contentType);
 	}
+	
 	@Test(priority=4)
 	public void getServer_type() {
 		
 		String server_type = response.header("server");
 		System.out.println("server type : "+server_type);
 	}
+	
 	@Test(priority=5)
 	public void getEncoding_type() {
 		
@@ -85,8 +87,6 @@ public class Post_userLinst_reqres extends RestBaseClass{
 		System.out.println("body : "+ body);
 		
 		String bodyString = body.asPrettyString();
-		System.out.println("body as string  :  "+bodyString);
-		
+		System.out.println("body as string  :  "+bodyString);		
 	}
-
 }
