@@ -26,7 +26,7 @@ import io.restassured.specification.RequestSpecification;
 }
  */
 
-public class PostNewPetTEST {
+public class PostNewPetTESTwithPOJO {
 
 	@Test
 	public void postNewPet() {

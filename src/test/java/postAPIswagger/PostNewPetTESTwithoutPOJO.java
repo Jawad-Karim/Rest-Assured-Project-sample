@@ -29,7 +29,7 @@ import io.restassured.specification.RequestSpecification;
  "status": "available"
 }
  */
-public class Post_New_Pet {
+public class PostNewPetTESTwithoutPOJO {
 
 	@Test
 	public void regularApproach() {
