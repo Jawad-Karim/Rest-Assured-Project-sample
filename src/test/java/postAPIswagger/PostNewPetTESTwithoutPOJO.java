@@ -52,17 +52,17 @@ public class PostNewPetTESTwithoutPOJO {
 		urlList.add("www.hglskghj.com");
 
 		//******************** map for tags list ****************************
-		Map <Object, Object> jo1 = new HashMap<Object, Object>();
-		jo1.put("id", 66);
-		jo1.put("name", "khushi");
+		Map <Object, Object> tag1 = new HashMap<Object, Object>();
+		tag1.put("id", 66);
+		tag1.put("name", "khushi");
 
-		Map <Object, Object> jo2 = new HashMap<Object, Object>();
-		jo2.put("id", 67);
-		jo2.put("name", "thushi");
+		Map <Object, Object> tag2 = new HashMap<Object, Object>();
+		tag2.put("id", 67);
+		tag2.put("name", "thushi");
 
 		List <Object> tagsList = new ArrayList<Object>();
-		tagsList.add(jo1);
-		tagsList.add(jo2);
+		tagsList.add(tag1);
+		tagsList.add(tag2);
 
 		//*************** map for main json body **************************
 		Map <Object, Object> MainMap = new HashMap<Object, Object>();
