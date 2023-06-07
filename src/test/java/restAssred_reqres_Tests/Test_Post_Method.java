@@ -12,7 +12,7 @@ import io.restassured.specification.RequestSpecification;
    "job": "leader"
 }
 */
-public class Post_userList_reqres extends RestBaseClass{
+public class Test_Post_Method extends RestBaseClass{
 	
 	@BeforeClass
 	public void postNewUser() throws Exception {

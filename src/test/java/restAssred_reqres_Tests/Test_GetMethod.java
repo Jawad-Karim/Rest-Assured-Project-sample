@@ -7,7 +7,7 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class GetMethod {
+public class Test_GetMethod {
 	
 	String baseUrl = "https://reqres.in/";
 	

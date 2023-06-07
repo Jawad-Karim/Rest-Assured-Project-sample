@@ -57,7 +57,7 @@ public class PostNewPet {
 		tagList.add(tagpojo2);
 
 		//*************** set value for post body ******************************
-		PostSwaggerNewPetPOJO psp = new PostSwaggerNewPetPOJO();
+		NewPetPOJO psp = new NewPetPOJO();
 		psp.setId(67);
 		psp.setCategory(categorypojo);
 		psp.setName("Jack");
@@ -79,7 +79,7 @@ public class PostNewPet {
 	@Test(priority=2)
 	public void getDeserialization() {
 
-		PostSwaggerNewPetPOJO psnp = RestAssured.get("https://petstore.swagger.io/v2/pet").as(PostSwaggerNewPetPOJO.class);
+		NewPetPOJO psnp = RestAssured.get("https://petstore.swagger.io/v2/pet").as(NewPetPOJO.class);
 
 		System.out.println("id : "+psnp.getId());
 		System.out.println("tags Name : "+ psnp.getName());

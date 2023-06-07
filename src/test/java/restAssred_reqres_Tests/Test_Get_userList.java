@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.response.ResponseBody;
 
-public class Get_userList_reqres extends RestBaseClass{
+public class Test_Get_userList extends RestBaseClass{
 
 	@BeforeClass
 	public void get_test() {

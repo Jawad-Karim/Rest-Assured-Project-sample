@@ -21,7 +21,7 @@ import java.util.List;
 }
 */
 
-public class PostSwaggerNewPetPOJO {
+public class NewPetPOJO {
 	
 	private int id;
 	private CategoryPOJO category;
