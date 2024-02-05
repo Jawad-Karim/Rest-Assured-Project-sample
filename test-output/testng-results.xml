@@ -1,21 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4958" started-at="2023-06-04T15:32:36Z" finished-at="2023-06-04T15:32:41Z">
+  <suite name="Default suite" duration-ms="2726" started-at="2023-08-31T01:02:11Z" finished-at="2023-08-31T01:02:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4958" started-at="2023-06-04T15:32:36Z" finished-at="2023-06-04T15:32:41Z">
-      <class name="swaggerNewPet.PostNewPet">
-        <test-method status="PASS" signature="testNewPet()[pri:1, instance:swaggerNewPet.PostNewPet@3567135c]" name="testNewPet" duration-ms="3995" started-at="2023-06-04T11:32:36Z" finished-at="2023-06-04T11:32:40Z">
+    <test name="Default test" duration-ms="2726" started-at="2023-08-31T01:02:11Z" finished-at="2023-08-31T01:02:14Z">
+      <class name="restAssred_reqres_Tests.Test_Get_userList">
+        <test-method status="PASS" signature="get_test()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="get_test" is-config="true" duration-ms="2011" started-at="2023-08-30T21:02:11Z" finished-at="2023-08-30T21:02:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNewPet -->
-        <test-method status="PASS" signature="getDeserialization()[pri:2, instance:swaggerNewPet.PostNewPet@3567135c]" name="getDeserialization" duration-ms="952" started-at="2023-06-04T11:32:40Z" finished-at="2023-06-04T11:32:41Z">
+        </test-method> <!-- get_test -->
+        <test-method status="PASS" signature="getBody_string()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="getBody_string" duration-ms="697" started-at="2023-08-30T21:02:13Z" finished-at="2023-08-30T21:02:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getDeserialization -->
-      </class> <!-- swaggerNewPet.PostNewPet -->
+        </test-method> <!-- getBody_string -->
+        <test-method status="PASS" signature="getContentType()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="getContentType" duration-ms="0" started-at="2023-08-30T21:02:14Z" finished-at="2023-08-30T21:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContentType -->
+        <test-method status="PASS" signature="getContent_length()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="getContent_length" duration-ms="0" started-at="2023-08-30T21:02:14Z" finished-at="2023-08-30T21:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContent_length -->
+        <test-method status="PASS" signature="getEncoding_type()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="getEncoding_type" duration-ms="1" started-at="2023-08-30T21:02:14Z" finished-at="2023-08-30T21:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEncoding_type -->
+        <test-method status="PASS" signature="getResponstime()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="getResponstime" duration-ms="2" started-at="2023-08-30T21:02:14Z" finished-at="2023-08-30T21:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponstime -->
+        <test-method status="PASS" signature="getServer_type()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="getServer_type" duration-ms="0" started-at="2023-08-30T21:02:14Z" finished-at="2023-08-30T21:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getServer_type -->
+        <test-method status="PASS" signature="getStatus()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="getStatus" duration-ms="0" started-at="2023-08-30T21:02:14Z" finished-at="2023-08-30T21:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatus -->
+        <test-method status="PASS" signature="getStatus_code()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="getStatus_code" duration-ms="1" started-at="2023-08-30T21:02:14Z" finished-at="2023-08-30T21:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatus_code -->
+      </class> <!-- restAssred_reqres_Tests.Test_Get_userList -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
