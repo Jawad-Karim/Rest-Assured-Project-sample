@@ -71,6 +71,16 @@ public class Test_Get_userList extends RestBaseClass{
 		String bodyString = body.asPrettyString();
 		System.out.println("body as string  :  "+bodyString);
 
-		System.out.println("firstName : "+response.getBody().jsonPath().get("data[3].first_name"));		
+		System.out.println("page no : "+response.getBody().jsonPath().get("page"));
+		System.out.println("length of array : "+response.getBody().jsonPath().get("data.size()"));
+		System.out.println("firstName : "+response.getBody().jsonPath().get("data[3].first_name"));	
+		System.out.println("firstName : "+response.getBody().jsonPath().get("data[1].first_name"));
+
+		/* output:
+		page no : 1
+		length of array : 6
+		firstName : Eve
+		firstName : Janet
+		 */
 	}
 }
