@@ -1,49 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2369" started-at="2024-02-08T16:08:29Z" finished-at="2024-02-08T16:08:32Z">
+  <suite name="Default suite" duration-ms="3134" started-at="2024-02-10T19:08:58Z" finished-at="2024-02-10T19:09:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2369" started-at="2024-02-08T16:08:29Z" finished-at="2024-02-08T16:08:32Z">
-      <class name="restAssred_reqres_Tests.Test_Get_userList">
-        <test-method status="PASS" signature="get_test()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="get_test" is-config="true" duration-ms="1654" started-at="2024-02-08T11:08:29Z" finished-at="2024-02-08T11:08:31Z">
+    <test name="Default test" duration-ms="3134" started-at="2024-02-10T19:08:58Z" finished-at="2024-02-10T19:09:01Z">
+      <class name="postAPIswagger.PostNewPetWithJasonObject">
+        <test-method status="PASS" signature="putValuesWithJsonObject()[pri:0, instance:postAPIswagger.PostNewPetWithJasonObject@3567135c]" name="putValuesWithJsonObject" duration-ms="3114" started-at="2024-02-10T14:08:58Z" finished-at="2024-02-10T14:09:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_test -->
-        <test-method status="PASS" signature="getBody_string()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="getBody_string" duration-ms="697" started-at="2024-02-08T11:08:31Z" finished-at="2024-02-08T11:08:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBody_string -->
-        <test-method status="PASS" signature="getContentType()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="getContentType" duration-ms="8" started-at="2024-02-08T11:08:32Z" finished-at="2024-02-08T11:08:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getContentType -->
-        <test-method status="PASS" signature="getContent_length()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="getContent_length" duration-ms="0" started-at="2024-02-08T11:08:32Z" finished-at="2024-02-08T11:08:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getContent_length -->
-        <test-method status="PASS" signature="getEncoding_type()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="getEncoding_type" duration-ms="0" started-at="2024-02-08T11:08:32Z" finished-at="2024-02-08T11:08:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getEncoding_type -->
-        <test-method status="PASS" signature="getResponstime()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="getResponstime" duration-ms="0" started-at="2024-02-08T11:08:32Z" finished-at="2024-02-08T11:08:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResponstime -->
-        <test-method status="PASS" signature="getServer_type()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="getServer_type" duration-ms="0" started-at="2024-02-08T11:08:32Z" finished-at="2024-02-08T11:08:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getServer_type -->
-        <test-method status="PASS" signature="getStatus()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="getStatus" duration-ms="0" started-at="2024-02-08T11:08:32Z" finished-at="2024-02-08T11:08:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getStatus -->
-        <test-method status="PASS" signature="getStatus_code()[pri:0, instance:restAssred_reqres_Tests.Test_Get_userList@2d3fcdbd]" name="getStatus_code" duration-ms="0" started-at="2024-02-08T11:08:32Z" finished-at="2024-02-08T11:08:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getStatus_code -->
-      </class> <!-- restAssred_reqres_Tests.Test_Get_userList -->
+        </test-method> <!-- putValuesWithJsonObject -->
+      </class> <!-- postAPIswagger.PostNewPetWithJasonObject -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
