@@ -1,4 +1,4 @@
-package restAssred_reqres_Tests;
+package restAssured_reqres_Tests;
 
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
