@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 
-public class Validate {
+public class Validation2 {
 	/*
 	get("/x").then().assertThat().statusCode(200). ..
 	get("/x").then().assertThat().statusLine("something"). ..
