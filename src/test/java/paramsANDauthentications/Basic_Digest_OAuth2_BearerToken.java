@@ -8,7 +8,6 @@ import io.restassured.specification.RequestSpecification;
 
 public class Basic_Digest_OAuth2_BearerToken {
 
-
 	@Test
 	public void basic_auth() {
 
@@ -49,7 +48,7 @@ public class Basic_Digest_OAuth2_BearerToken {
 
 	//@Test
 	public void Oauth_2() {
-		
+
 		//given().auth().preemptive().oauth2(accessToken);
 
 		RestAssured.baseURI = "https://postman-echo.com";
