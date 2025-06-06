@@ -13,9 +13,9 @@ Types of Parameters in Rest Assrued
                             .statusCode(200);  
      
     
-   2. Path Parameter  
-   : Path Parameters are part of URI itself used to specify a specific resource.   
-   : Exmple-
+2. Path Parameter  
+: Path Parameters are part of URI itself used to specify a specific resource.   
+: Exmple-
 
                         given()
                             .pathParam("id", 123)
@@ -25,9 +25,9 @@ Types of Parameters in Rest Assrued
                             .statusCode(200);
 
 
-   4. Form Parameter    
-   : Form Parameters are used send data into POST request body   
-   : Example-  
+3. Form Parameter    
+: Form Parameters are used send data into POST request body   
+: Example-  
 
                         given()  
                             .formParam("username", "john_doe")  
@@ -38,9 +38,9 @@ Types of Parameters in Rest Assrued
                             .statusCode(200);  
       
   
-   5. Generic Parameters   
-   : Generic Parameters are used as Query and Form Parameter both. Rest Assured will determine how it will be used.  
-   : Example-  
+4. Generic Parameters   
+: Generic Parameters are used as Query and Form Parameter both. Rest Assured will determine how it will be used.  
+: Example-  
 
                         // Using param for query parameters  
                         given()  
