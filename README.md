@@ -2,7 +2,7 @@ Types of Parameters in Rest Assrued
 ------------------------------------    
 1. Query Parameter   
 : Query Parameters are appended to URI after Question Mark (?)  they are used to filter or sort the response.  
-: Example-  
+: Example-    
             given()  
                 .queryParam("key", "value")  
                 .queryParam("filter", "active")  
@@ -13,7 +13,7 @@ Types of Parameters in Rest Assrued
   
    2. Path Parameter  
    : Path Parameters are part of URI itself used to specify a specific resource.   
-   : Exmple-
+   : Exmple-    
               given()  
                     .pathParam("id", 123)  
               .when()  
@@ -33,7 +33,7 @@ Types of Parameters in Rest Assrued
   
    4. Generic Parameters   
    : Generic Parameters are used as Query and Form Parameter both. Rest Assured will determine how it will be used.  
-   : Example-  
+   : Example-   
                        // Using param for query parameters  
                         given()   
                             .param("search", "test")  
