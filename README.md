@@ -128,7 +128,7 @@ public class A {
 public class A {    
 	private String name;     
 	private int id;     
-	private String school;	   		
+	private String school;	    		
 }  
 
 OR   
