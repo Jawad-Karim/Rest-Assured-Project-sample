@@ -223,6 +223,97 @@ ____________
 		System.out.println(a1.isActive());	//true    
 	}  
 
- 
+
+ Read Json data using Jackson databind library
+----------------------------------------------
+step 1. add jackson-databind dependency to POM.
+Example of Json response : 
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        }        
+    ],
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+
+step 2. create POJO for every json data attribute
+@Data
+public class Reqres_userList_POJO {
+	
+	// we can store Integer data into String variable
+	int page;
+	int per_page;
+	int total;
+	String total_pages;
+	List<DataPOJO> data;
+	SupportPOJO support;
+}
+-----------
+@Data
+public class DataPOJO {
+	
+	int id;
+	String email;
+	String first_name;
+	String last_name;
+	String avatar;
+}
+----------
+@Data
+public class SupportPOJO {
+	
+	String url;
+	String text;
+}
+
+step 3. verify response data
+public class Read_JsonData_using_Jackson_Databind {
+	
+	@Test
+	public void test() throws Exception{
+		
+		RestAssured.baseURI = "https://reqres.in/api/users?page=2";
+		RequestSpecification request = RestAssured.given();
+		request.header("x-api-key", " reqres-free-v1");
+		Response response = request.get();
+		
+		// store response into POJO
+		Reqres_userList_POJO userList = response.as(Reqres_userList_POJO.class);
+		
+		// read String/Integer data | Array Data | Object Data
+		System.out.println("user per page : "+userList.getPer_page());
+		
+		// read Array Data 
+		List<DataPOJO> dataList = userList.getData();
+		String fName = dataList.get(0).getFirst_name();
+		System.out.println("6th ID's first name: "+ fName);
+		
+		// read Object Data
+		SupportPOJO support = userList.getSupport();
+		String text = support.getText();
+		System.out.println("message text: "+ text);	
+		
+		// print response body
+		System.out.println(response.asPrettyString());
+			
+		// read Json data from Json file.....   
+		File file = new File("file_path");
+		ObjectMapper objectMapper = new ObjectMapper();
+		Reqres_userList_POJO userList1 = objectMapper.readValue(file, Reqres_userList_POJO.class);		 				
+	}
+}
+
 
 
