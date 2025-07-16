@@ -298,7 +298,7 @@ public class Read_JsonData_using_Jackson_Databind {
 		// read Array Data 
 		List<DataPOJO> dataList = userList.getData();
 		String fName = dataList.get(0).getFirst_name();
-		System.out.println("6th ID's first name: "+ fName);
+		System.out.println("1st ID's first name: "+ fName);
 		
 		// read Object Data
 		SupportPOJO support = userList.getSupport();
