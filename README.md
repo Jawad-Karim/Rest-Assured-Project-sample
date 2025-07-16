@@ -128,7 +128,8 @@ public class A {
 public class A {    
 	private String name;     
 	private int id;     
-	private String school;	    		
+	private String school;  
+   
 }  
 
 OR   
@@ -138,9 +139,11 @@ OR
 public class A {     
 	private String name;     
 	private int id;     
-	private String school;	   		
-}   
-: test method   
+	private String school;	     
+   
+  }   
+: test method  
+---
 @Test   
 	public void test() {   
 		   
@@ -153,10 +156,11 @@ public class A {
 		System.out.println(a1.getName());   
 		System.out.println(a1.getSchool());   
 
-    A a2 = new A("Jawad",101, "Harvard");   [for this instance we need to use annotation @AllArgsConstructor]   
+      		A a2 = new A("Jawad",101, "Harvard");   [for this instance we need to use annotation @AllArgsConstructor]   
 		System.out.println(a2.getName());   
 		System.out.println(a2.getId());		
 		System.out.println(a2.getSchool());   
+    
 	}   
 
  Builder Design Pattern   
@@ -171,7 +175,7 @@ public class A {
 public class A {  
 	private String name;  
 	private int id;  
-	private boolean isActive;			
+	private boolean isActive;  		
 }   
 
 @Test   
@@ -216,7 +220,7 @@ ____________
 		A a1 = A.builder().name("Jawad").id(201).build();  
 		System.out.println(a1.getName()); 	//Jawad    
 		System.out.println(a1.getId()); 	//201  
-		System.out.println(a1.isActive());	//true  
+		System.out.println(a1.isActive());	//true    
 	}  
 
  
