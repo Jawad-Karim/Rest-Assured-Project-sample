@@ -228,25 +228,25 @@ ____________
 ----------------------------------------------  
 step 1. add jackson-databind dependency to POM.   
 Example of Json response :   
-{
-		    "page": 1,
-		    "per_page": 6,
-		    "total": 12,
-		    "total_pages": 2,
-		    "data": [
-		        {
-		            "id": 1,
-		            "email": "george.bluth@reqres.in",
-		            "first_name": "George",
-		            "last_name": "Bluth",
-		            "avatar": "https://reqres.in/img/faces/1-image.jpg"
-		        }
-		        ],
-		    "support": {
-		        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
-		        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
-		    }
-		} 
+{  
+		    "page": 1,  
+		    "per_page": 6,  
+		    "total": 12,  
+		    "total_pages": 2,  
+		    "data": [  
+		        {  
+		            "id": 1,  
+		            "email": "george.bluth@reqres.in",  
+		            "first_name": "George",  
+		            "last_name": "Bluth",  
+		            "avatar": "https://reqres.in/img/faces/1-image.jpg"  
+		        }  
+		        ],  
+		    "support": {  
+		        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",  
+		        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."  
+		    }  
+		}   
 
 step 2. create POJO for every json data attribute  
 @Data
