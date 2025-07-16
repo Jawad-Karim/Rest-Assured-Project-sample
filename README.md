@@ -224,9 +224,9 @@ ____________
 	}  
 
 
- Read Json data using Jackson databind library
-----------------------------------------------
-step 1. add jackson-databind dependency to POM.
+ Read Json data using Jackson databind library  
+----------------------------------------------  
+step 1. add jackson-databind dependency to POM.   
 Example of Json response :   
 {  
     "page": 1,  
